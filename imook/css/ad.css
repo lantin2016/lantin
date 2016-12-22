@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*a{
+	text-decoration:none;
+}
+
+.ad{
+	width:1000px;
+	height:310px;
+	position:relative;
+	overflow:hidden;
+}
+#list{
+	width:3000px;
+	height:310px;
+	position:absolute;
+	cursor:pointer;
+	z-index:1;
+}
+#list img{
+	float:left;
+}
+#buttons{
+	width:50px;
+	height:10px;
+	z-index:2;
+	position:absolute;
+	bottom:20px;
+	right:480px;
+}
+#buttons span{
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	float:left;
+	margin-right:5px;
+	cursor:pointer;
+	background-color:#00F;
+
+}
+#buttons .on{
+	background-color:#FFF;
+}
+
+.arrow{
+	position:absolute;
+	z-index:2;
+	text-align:center;
+	top:150px;
+	background-color:RGBA(0,0,0,0.3);
+	color:#999;
+	display:none;
+}
+.arrow:hover{
+	background-color:RGBA(0,0,0,0.7);
+}
+
+#prev{
+	left:10px;
+}
+#next{
+	right:10px;
+}
+.ad:hover .arrow{
+	display:block;
+}*/
+
+
+
+
+
+a{
+	text-decoration:none;
+}
+
+
+.ad{
+	width:1000px;
+	height:310px;
+	position:relative;
+	overflow:hidden;
+}
+
+
+#list{
+	width:6000px;
+	height:400px;
+	position:absolute;
+	z-index:1;
+	/*float:left;*/
+	cursor:pointer;
+}
+
+#list img{
+	float:left;
+}
+
+#buttons{
+	width:120px;
+	height:10px;
+	position:absolute;
+	z-index:2;    /*定位和覆盖是决定按钮能否显示出来的关键*/
+}
+
+/*制作按钮时应该考虑的是并排摆放方式：float绝对不能少；第二是按钮之间的间隙，用margin；第三是背景色；第四是圆角；第五是鼠标指针形式*/
+#buttons span{
+	cursor:pointer;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background:#39F;
+	float:left;
+	margin-right:5px;
+}
+
+#buttons .on{
+	background:#666;
+}
+
+
+
+.arrow{
+	position:absolute;
+	z-index:2;
+	text-align:center;
+	top:150px;
+	color:#fff;
+	background:RGBA(0,0,0,0.3);
+	cursor:pointer;
+	display:none;
+}
+
+.arrow:hover{
+	background:RGBA(0,0,0,0.7);
+}
+
+#prev{
+	left:10px;
+}
+
+#next{
+	right:10px;
+}
+
+.ad:hover .arrow{
+	display:block;
+}
